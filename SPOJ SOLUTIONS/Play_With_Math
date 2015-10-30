@@ -1,0 +1,15 @@
+# include <cstdio>
+#include<algorithm> 
+using namespace std; 
+int main() 
+{ 
+	long long int j,a,b,_; 
+	scanf("%lld",&_); 
+	for(j=0;j<_;j++) 
+	{ 
+		scanf("%lld%lld",&a,&b); 
+		printf("%lld %lld\n",b/std::__gcd(a,b),a/std::__gcd(a,b)); 
+	} 
+
+return 0; 
+}
